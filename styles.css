@@ -1,62 +1,3 @@
-/**,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Garamond, "Bruch Script MT", serif;
-    margin: 0px auto;
-    padding: 0px;
-    width: 1000px;
-    border: 2px solid blue;
-}
-
-.title {
-    color: #156082;
-    font-size: 50px;
-    margin-bottom: 10px;
-    text-align: center;
-    border: 2px solid blue;
-}
-
-.list-img {
-    border: 2px solid red;
-    list-style-type: none;
-    display: flex;
-    margin: 0px auto;
-    padding: 10px;
-    width: 850px;
-}
-
-.img-item {
-    width: 250px;
-    margin: 0px;
-}
-
-.img-size {
-    width: 200px;
-    height: 200px;
-    border: 2px solid red;
-}
-
-.list-item {
-    background-color: lightblue;
-    color: white;
-    font-size: 20px;
-    list-style-type: none;
-    display: flex;
-    margin: 0px auto;
-    padding: 10px;
-    width: 850px;
-}
-
-.item {
-    width: 250px;
-    text-align: center;
-    margin: 0 auto;
-}*/
-
 *,
 *::before,
 *::after {
@@ -65,11 +6,6 @@ body {
     padding: 0px;
 }
 
-body {
-    width: 1000px;
-    margin: 0px auto;
-}
-
 .title {
     color: #156082;
     font-size: 50px;
@@ -77,34 +13,27 @@ body {
     margin-bottom: 10px;
 }
 
-.list-img {
+.img-list {
     list-style-type: none;
     display: flex;
-    width: 800px;
-    margin: 10px auto;
-}
-
-.img-item {
-    margin: 0px auto;    
+    justify-content: center;
+    height: 180px;
+    margin-bottom: 10px;
 }
 
 .img-size {
     width: 200px;
-    height: 175px;
+    height: 180px;
 }
 
-.list-item {
-    background-color: lightblue;
+.link-list {
     list-style-type: none;
-    width: 800px;
     display: flex;
-    margin: 0px auto;
-    padding: 6px;
+    justify-content: center;
 }
 
-.item {
-    color: white;
-    text-align: center;
+.text-link {
+    font-size: 15px;
     width: 200px;
-    margin: 0px auto;
+    text-align: center;
 }
